@@ -1,0 +1,65 @@
+{
+  "name": "kartikeya-tapes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.2.5",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.8",
+    "@react-google-maps/api": "^2.19.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^5.8.4",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "bulma": "^0.9.4",
+    "dayjs": "^1.11.9",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.66.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/lodash": "^4.14.197",
+    "@types/react-countup": "^4.3.1"
+  }
+}
